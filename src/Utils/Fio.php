@@ -16,7 +16,7 @@ if (Fio::is32bitOS()) {
 final class Fio
 {
 	/** @var string url Fio REST API */
-	public const REST_URL = 'https://www.fio.cz/ib_api/rest/';
+	public const REST_URL = 'https://fioapi.fio.cz/rest/';
 
 	private function __construct()
 	{
